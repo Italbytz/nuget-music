@@ -1,0 +1,8 @@
+- name: Home
+  href: index.md
+- name: Guides
+  items:
+    - name: Music packages
+      href: docs/music-packages.md
+- name: API Reference
+  href: api/

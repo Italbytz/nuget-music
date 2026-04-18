@@ -1,0 +1,29 @@
+### YamlMime:TableOfContent
+items:
+- uid: Italbytz.Music.Abstractions
+  name: Italbytz.Music.Abstractions
+  type: Namespace
+  items:
+  - uid: Italbytz.Music.Abstractions.CoverArtReference
+    name: CoverArtReference
+    type: Class
+  - uid: Italbytz.Music.Abstractions.CoverArtSize
+    name: CoverArtSize
+    type: Enum
+  - uid: Italbytz.Music.Abstractions.IMusicSearchEngine
+    name: IMusicSearchEngine
+    type: Interface
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    type: Class
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    type: Class
+- uid: Italbytz.Music.ITunes.Client
+  name: Italbytz.Music.ITunes.Client
+  type: Namespace
+  items:
+  - uid: Italbytz.Music.ITunes.Client.ITunesSearchClient
+    name: ITunesSearchClient
+    type: Class
+memberLayout: SamePage

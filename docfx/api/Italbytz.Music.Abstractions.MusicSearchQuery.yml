@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery
+  commentId: T:Italbytz.Music.Abstractions.MusicSearchQuery
+  id: MusicSearchQuery
+  parent: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.MusicSearchQuery.#ctor(System.String,System.Int32)
+  - Italbytz.Music.Abstractions.MusicSearchQuery.Limit
+  - Italbytz.Music.Abstractions.MusicSearchQuery.Term
+  langs:
+  - csharp
+  - vb
+  name: MusicSearchQuery
+  nameWithType: MusicSearchQuery
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery
+  type: Class
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: MusicSearchQuery
+    path: ../src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+    startLine: 2
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public sealed class MusicSearchQuery
+    content.vb: Public NotInheritable Class MusicSearchQuery
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.#ctor(System.String,System.Int32)
+  commentId: M:Italbytz.Music.Abstractions.MusicSearchQuery.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Italbytz.Music.Abstractions.MusicSearchQuery
+  langs:
+  - csharp
+  - vb
+  name: MusicSearchQuery(string, int)
+  nameWithType: MusicSearchQuery.MusicSearchQuery(string, int)
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.MusicSearchQuery(string, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: .ctor
+    path: ../src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public MusicSearchQuery(string term, int limit = 5)
+    parameters:
+    - id: term
+      type: System.String
+    - id: limit
+      type: System.Int32
+    content.vb: Public Sub New(term As String, limit As Integer = 5)
+  overload: Italbytz.Music.Abstractions.MusicSearchQuery.#ctor*
+  nameWithType.vb: MusicSearchQuery.New(String, Integer)
+  fullName.vb: Italbytz.Music.Abstractions.MusicSearchQuery.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.Term
+  commentId: P:Italbytz.Music.Abstractions.MusicSearchQuery.Term
+  id: Term
+  parent: Italbytz.Music.Abstractions.MusicSearchQuery
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: MusicSearchQuery.Term
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.Term
+  type: Property
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Term
+    path: ../src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+    startLine: 20
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public string Term { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Term As String
+  overload: Italbytz.Music.Abstractions.MusicSearchQuery.Term*
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.Limit
+  commentId: P:Italbytz.Music.Abstractions.MusicSearchQuery.Limit
+  id: Limit
+  parent: Italbytz.Music.Abstractions.MusicSearchQuery
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: MusicSearchQuery.Limit
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.Limit
+  type: Property
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Limit
+    path: ../src/Italbytz.Music.Abstractions/MusicSearchQuery.cs
+    startLine: 22
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public int Limit { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Limit As Integer
+  overload: Italbytz.Music.Abstractions.MusicSearchQuery.Limit*
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.#ctor*
+  commentId: Overload:Italbytz.Music.Abstractions.MusicSearchQuery.#ctor
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html#Italbytz_Music_Abstractions_MusicSearchQuery__ctor_System_String_System_Int32_
+  name: MusicSearchQuery
+  nameWithType: MusicSearchQuery.MusicSearchQuery
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.MusicSearchQuery
+  nameWithType.vb: MusicSearchQuery.New
+  fullName.vb: Italbytz.Music.Abstractions.MusicSearchQuery.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.Term*
+  commentId: Overload:Italbytz.Music.Abstractions.MusicSearchQuery.Term
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html#Italbytz_Music_Abstractions_MusicSearchQuery_Term
+  name: Term
+  nameWithType: MusicSearchQuery.Term
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.Term
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery.Limit*
+  commentId: Overload:Italbytz.Music.Abstractions.MusicSearchQuery.Limit
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html#Italbytz_Music_Abstractions_MusicSearchQuery_Limit
+  name: Limit
+  nameWithType: MusicSearchQuery.Limit
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery.Limit

@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.CoverArtSize
+  commentId: T:Italbytz.Music.Abstractions.CoverArtSize
+  id: CoverArtSize
+  parent: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.CoverArtSize.Large
+  - Italbytz.Music.Abstractions.CoverArtSize.Medium
+  - Italbytz.Music.Abstractions.CoverArtSize.Small
+  langs:
+  - csharp
+  - vb
+  name: CoverArtSize
+  nameWithType: CoverArtSize
+  fullName: Italbytz.Music.Abstractions.CoverArtSize
+  type: Enum
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtSize.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: CoverArtSize
+    path: ../src/Italbytz.Music.Abstractions/CoverArtSize.cs
+    startLine: 2
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public enum CoverArtSize
+    content.vb: Public Enum CoverArtSize
+- uid: Italbytz.Music.Abstractions.CoverArtSize.Small
+  commentId: F:Italbytz.Music.Abstractions.CoverArtSize.Small
+  id: Small
+  parent: Italbytz.Music.Abstractions.CoverArtSize
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: CoverArtSize.Small
+  fullName: Italbytz.Music.Abstractions.CoverArtSize.Small
+  type: Field
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtSize.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Small
+    path: ../src/Italbytz.Music.Abstractions/CoverArtSize.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: Small = 0
+    return:
+      type: Italbytz.Music.Abstractions.CoverArtSize
+- uid: Italbytz.Music.Abstractions.CoverArtSize.Medium
+  commentId: F:Italbytz.Music.Abstractions.CoverArtSize.Medium
+  id: Medium
+  parent: Italbytz.Music.Abstractions.CoverArtSize
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: CoverArtSize.Medium
+  fullName: Italbytz.Music.Abstractions.CoverArtSize.Medium
+  type: Field
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtSize.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Medium
+    path: ../src/Italbytz.Music.Abstractions/CoverArtSize.cs
+    startLine: 5
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: Medium = 1
+    return:
+      type: Italbytz.Music.Abstractions.CoverArtSize
+- uid: Italbytz.Music.Abstractions.CoverArtSize.Large
+  commentId: F:Italbytz.Music.Abstractions.CoverArtSize.Large
+  id: Large
+  parent: Italbytz.Music.Abstractions.CoverArtSize
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: CoverArtSize.Large
+  fullName: Italbytz.Music.Abstractions.CoverArtSize.Large
+  type: Field
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtSize.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Large
+    path: ../src/Italbytz.Music.Abstractions/CoverArtSize.cs
+    startLine: 6
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: Large = 2
+    return:
+      type: Italbytz.Music.Abstractions.CoverArtSize
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: Italbytz.Music.Abstractions.CoverArtSize
+  commentId: T:Italbytz.Music.Abstractions.CoverArtSize
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.CoverArtSize.html
+  name: CoverArtSize
+  nameWithType: CoverArtSize
+  fullName: Italbytz.Music.Abstractions.CoverArtSize

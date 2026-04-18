@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.CoverArtReference
+  commentId: T:Italbytz.Music.Abstractions.CoverArtReference
+  id: CoverArtReference
+  parent: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.CoverArtReference.#ctor(System.Uri,System.Uri,System.Uri)
+  - Italbytz.Music.Abstractions.CoverArtReference.GetUri(Italbytz.Music.Abstractions.CoverArtSize)
+  - Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+  - Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+  - Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+  langs:
+  - csharp
+  - vb
+  name: CoverArtReference
+  nameWithType: CoverArtReference
+  fullName: Italbytz.Music.Abstractions.CoverArtReference
+  type: Class
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: CoverArtReference
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 2
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public sealed class CoverArtReference
+    content.vb: Public NotInheritable Class CoverArtReference
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Italbytz.Music.Abstractions.CoverArtReference.#ctor(System.Uri,System.Uri,System.Uri)
+  commentId: M:Italbytz.Music.Abstractions.CoverArtReference.#ctor(System.Uri,System.Uri,System.Uri)
+  id: '#ctor(System.Uri,System.Uri,System.Uri)'
+  parent: Italbytz.Music.Abstractions.CoverArtReference
+  langs:
+  - csharp
+  - vb
+  name: CoverArtReference(Uri, Uri, Uri)
+  nameWithType: CoverArtReference.CoverArtReference(Uri, Uri, Uri)
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.CoverArtReference(System.Uri, System.Uri, System.Uri)
+  type: Constructor
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: .ctor
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public CoverArtReference(Uri smallUri, Uri mediumUri, Uri largeUri)
+    parameters:
+    - id: smallUri
+      type: System.Uri
+    - id: mediumUri
+      type: System.Uri
+    - id: largeUri
+      type: System.Uri
+    content.vb: Public Sub New(smallUri As Uri, mediumUri As Uri, largeUri As Uri)
+  overload: Italbytz.Music.Abstractions.CoverArtReference.#ctor*
+  nameWithType.vb: CoverArtReference.New(Uri, Uri, Uri)
+  fullName.vb: Italbytz.Music.Abstractions.CoverArtReference.New(System.Uri, System.Uri, System.Uri)
+  name.vb: New(Uri, Uri, Uri)
+- uid: Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+  commentId: P:Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+  id: SmallUri
+  parent: Italbytz.Music.Abstractions.CoverArtReference
+  langs:
+  - csharp
+  - vb
+  name: SmallUri
+  nameWithType: CoverArtReference.SmallUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+  type: Property
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: SmallUri
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 11
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public Uri SmallUri { get; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public ReadOnly Property SmallUri As Uri
+  overload: Italbytz.Music.Abstractions.CoverArtReference.SmallUri*
+- uid: Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+  commentId: P:Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+  id: MediumUri
+  parent: Italbytz.Music.Abstractions.CoverArtReference
+  langs:
+  - csharp
+  - vb
+  name: MediumUri
+  nameWithType: CoverArtReference.MediumUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+  type: Property
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: MediumUri
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 13
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public Uri MediumUri { get; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public ReadOnly Property MediumUri As Uri
+  overload: Italbytz.Music.Abstractions.CoverArtReference.MediumUri*
+- uid: Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+  commentId: P:Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+  id: LargeUri
+  parent: Italbytz.Music.Abstractions.CoverArtReference
+  langs:
+  - csharp
+  - vb
+  name: LargeUri
+  nameWithType: CoverArtReference.LargeUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+  type: Property
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: LargeUri
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 15
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public Uri LargeUri { get; }
+    parameters: []
+    return:
+      type: System.Uri
+    content.vb: Public ReadOnly Property LargeUri As Uri
+  overload: Italbytz.Music.Abstractions.CoverArtReference.LargeUri*
+- uid: Italbytz.Music.Abstractions.CoverArtReference.GetUri(Italbytz.Music.Abstractions.CoverArtSize)
+  commentId: M:Italbytz.Music.Abstractions.CoverArtReference.GetUri(Italbytz.Music.Abstractions.CoverArtSize)
+  id: GetUri(Italbytz.Music.Abstractions.CoverArtSize)
+  parent: Italbytz.Music.Abstractions.CoverArtReference
+  langs:
+  - csharp
+  - vb
+  name: GetUri(CoverArtSize)
+  nameWithType: CoverArtReference.GetUri(CoverArtSize)
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.GetUri(Italbytz.Music.Abstractions.CoverArtSize)
+  type: Method
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/CoverArtReference.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: GetUri
+    path: ../src/Italbytz.Music.Abstractions/CoverArtReference.cs
+    startLine: 17
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: public Uri GetUri(CoverArtSize size)
+    parameters:
+    - id: size
+      type: Italbytz.Music.Abstractions.CoverArtSize
+    return:
+      type: System.Uri
+    content.vb: Public Function GetUri(size As CoverArtSize) As Uri
+  overload: Italbytz.Music.Abstractions.CoverArtReference.GetUri*
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Italbytz.Music.Abstractions.CoverArtReference.#ctor*
+  commentId: Overload:Italbytz.Music.Abstractions.CoverArtReference.#ctor
+  href: Italbytz.Music.Abstractions.CoverArtReference.html#Italbytz_Music_Abstractions_CoverArtReference__ctor_System_Uri_System_Uri_System_Uri_
+  name: CoverArtReference
+  nameWithType: CoverArtReference.CoverArtReference
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.CoverArtReference
+  nameWithType.vb: CoverArtReference.New
+  fullName.vb: Italbytz.Music.Abstractions.CoverArtReference.New
+  name.vb: New
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uri
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: Italbytz.Music.Abstractions.CoverArtReference.SmallUri*
+  commentId: Overload:Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+  href: Italbytz.Music.Abstractions.CoverArtReference.html#Italbytz_Music_Abstractions_CoverArtReference_SmallUri
+  name: SmallUri
+  nameWithType: CoverArtReference.SmallUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.SmallUri
+- uid: Italbytz.Music.Abstractions.CoverArtReference.MediumUri*
+  commentId: Overload:Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+  href: Italbytz.Music.Abstractions.CoverArtReference.html#Italbytz_Music_Abstractions_CoverArtReference_MediumUri
+  name: MediumUri
+  nameWithType: CoverArtReference.MediumUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.MediumUri
+- uid: Italbytz.Music.Abstractions.CoverArtReference.LargeUri*
+  commentId: Overload:Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+  href: Italbytz.Music.Abstractions.CoverArtReference.html#Italbytz_Music_Abstractions_CoverArtReference_LargeUri
+  name: LargeUri
+  nameWithType: CoverArtReference.LargeUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.LargeUri
+- uid: Italbytz.Music.Abstractions.CoverArtReference.GetUri*
+  commentId: Overload:Italbytz.Music.Abstractions.CoverArtReference.GetUri
+  href: Italbytz.Music.Abstractions.CoverArtReference.html#Italbytz_Music_Abstractions_CoverArtReference_GetUri_Italbytz_Music_Abstractions_CoverArtSize_
+  name: GetUri
+  nameWithType: CoverArtReference.GetUri
+  fullName: Italbytz.Music.Abstractions.CoverArtReference.GetUri
+- uid: Italbytz.Music.Abstractions.CoverArtSize
+  commentId: T:Italbytz.Music.Abstractions.CoverArtSize
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.CoverArtSize.html
+  name: CoverArtSize
+  nameWithType: CoverArtSize
+  fullName: Italbytz.Music.Abstractions.CoverArtSize

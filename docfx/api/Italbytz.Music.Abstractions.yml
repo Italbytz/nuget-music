@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  id: Italbytz.Music.Abstractions
+  children:
+  - Italbytz.Music.Abstractions.CoverArtReference
+  - Italbytz.Music.Abstractions.CoverArtSize
+  - Italbytz.Music.Abstractions.IMusicSearchEngine
+  - Italbytz.Music.Abstractions.MusicSearchQuery
+  - Italbytz.Music.Abstractions.MusicSearchResult
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  type: Namespace
+  assemblies:
+  - Italbytz.Music.Abstractions
+references:
+- uid: Italbytz.Music.Abstractions.CoverArtReference
+  commentId: T:Italbytz.Music.Abstractions.CoverArtReference
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.CoverArtReference.html
+  name: CoverArtReference
+  nameWithType: CoverArtReference
+  fullName: Italbytz.Music.Abstractions.CoverArtReference
+- uid: Italbytz.Music.Abstractions.CoverArtSize
+  commentId: T:Italbytz.Music.Abstractions.CoverArtSize
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.CoverArtSize.html
+  name: CoverArtSize
+  nameWithType: CoverArtSize
+  fullName: Italbytz.Music.Abstractions.CoverArtSize
+- uid: Italbytz.Music.Abstractions.IMusicSearchEngine
+  commentId: T:Italbytz.Music.Abstractions.IMusicSearchEngine
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.IMusicSearchEngine.html
+  name: IMusicSearchEngine
+  nameWithType: IMusicSearchEngine
+  fullName: Italbytz.Music.Abstractions.IMusicSearchEngine
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery
+  commentId: T:Italbytz.Music.Abstractions.MusicSearchQuery
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: MusicSearchQuery
+  nameWithType: MusicSearchQuery
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery
+- uid: Italbytz.Music.Abstractions.MusicSearchResult
+  commentId: T:Italbytz.Music.Abstractions.MusicSearchResult
+  href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  name: MusicSearchResult
+  nameWithType: MusicSearchResult
+  fullName: Italbytz.Music.Abstractions.MusicSearchResult
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html

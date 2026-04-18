@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient
+  commentId: T:Italbytz.Music.ITunes.Client.ITunesSearchClient
+  id: ITunesSearchClient
+  parent: Italbytz.Music.ITunes.Client
+  children:
+  - Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor(System.Net.Http.HttpClient)
+  - Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  langs:
+  - csharp
+  - vb
+  name: ITunesSearchClient
+  nameWithType: ITunesSearchClient
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient
+  type: Class
+  source:
+    remote:
+      path: src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: ITunesSearchClient
+    path: ../src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+    startLine: 6
+  assemblies:
+  - Italbytz.Music.ITunes.Client
+  namespace: Italbytz.Music.ITunes.Client
+  syntax:
+    content: 'public sealed class ITunesSearchClient : IMusicSearchEngine, IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>'
+    content.vb: Public NotInheritable Class ITunesSearchClient Implements IMusicSearchEngine, IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  inheritance:
+  - System.Object
+  implements:
+  - Italbytz.Music.Abstractions.IMusicSearchEngine
+  - Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor(System.Net.Http.HttpClient)
+  commentId: M:Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: Italbytz.Music.ITunes.Client.ITunesSearchClient
+  langs:
+  - csharp
+  - vb
+  name: ITunesSearchClient(HttpClient)
+  nameWithType: ITunesSearchClient.ITunesSearchClient(HttpClient)
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient.ITunesSearchClient(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    remote:
+      path: src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: .ctor
+    path: ../src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+    startLine: 15
+  assemblies:
+  - Italbytz.Music.ITunes.Client
+  namespace: Italbytz.Music.ITunes.Client
+  syntax:
+    content: public ITunesSearchClient(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor*
+  nameWithType.vb: ITunesSearchClient.New(HttpClient)
+  fullName.vb: Italbytz.Music.ITunes.Client.ITunesSearchClient.New(System.Net.Http.HttpClient)
+  name.vb: New(HttpClient)
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  commentId: M:Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  id: Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  parent: Italbytz.Music.ITunes.Client.ITunesSearchClient
+  langs:
+  - csharp
+  - vb
+  name: Execute(MusicSearchQuery)
+  nameWithType: ITunesSearchClient.Execute(MusicSearchQuery)
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  type: Method
+  source:
+    remote:
+      path: src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: Execute
+    path: ../src/Italbytz.Music.ITunes.Client/ITunesSearchClient.cs
+    startLine: 20
+  assemblies:
+  - Italbytz.Music.ITunes.Client
+  namespace: Italbytz.Music.ITunes.Client
+  example: []
+  syntax:
+    content: public Task<Result<List<MusicSearchResult>>> Execute(MusicSearchQuery query)
+    parameters:
+    - id: query
+      type: Italbytz.Music.Abstractions.MusicSearchQuery
+    return:
+      type: System.Threading.Tasks.Task{Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+    content.vb: Public Function Execute(query As MusicSearchQuery) As Task(Of Result(Of List(Of MusicSearchResult)))
+  overload: Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute*
+  implements:
+  - Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+references:
+- uid: Italbytz.Music.ITunes.Client
+  commentId: N:Italbytz.Music.ITunes.Client
+  href: Italbytz.html
+  name: Italbytz.Music.ITunes.Client
+  nameWithType: Italbytz.Music.ITunes.Client
+  fullName: Italbytz.Music.ITunes.Client
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.ITunes
+    name: ITunes
+    href: Italbytz.Music.ITunes.html
+  - name: .
+  - uid: Italbytz.Music.ITunes.Client
+    name: Client
+    href: Italbytz.Music.ITunes.Client.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.ITunes
+    name: ITunes
+    href: Italbytz.Music.ITunes.html
+  - name: .
+  - uid: Italbytz.Music.ITunes.Client
+    name: Client
+    href: Italbytz.Music.ITunes.Client.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Italbytz.Music.Abstractions.IMusicSearchEngine
+  commentId: T:Italbytz.Music.Abstractions.IMusicSearchEngine
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.IMusicSearchEngine.html
+  name: IMusicSearchEngine
+  nameWithType: IMusicSearchEngine
+  fullName: Italbytz.Music.Abstractions.IMusicSearchEngine
+- uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.IAsyncService`2
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>
+  nameWithType: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result<System.Collections.Generic.List<Italbytz.Music.Abstractions.MusicSearchResult>>>
+  nameWithType.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result(Of System.Collections.Generic.List(Of Italbytz.Music.Abstractions.MusicSearchResult)))
+  name.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: <
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: ','
+  - name: " "
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: ','
+  - name: " "
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IAsyncService`2
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService`2
+  isExternal: true
+  name: IAsyncService<TInDto, TOutDto>
+  nameWithType: IAsyncService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto)
+  name.vb: IAsyncService(Of TInDto, TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: <
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  isExternal: true
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    isExternal: true
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    isExternal: true
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor*
+  commentId: Overload:Italbytz.Music.ITunes.Client.ITunesSearchClient.#ctor
+  href: Italbytz.Music.ITunes.Client.ITunesSearchClient.html#Italbytz_Music_ITunes_Client_ITunesSearchClient__ctor_System_Net_Http_HttpClient_
+  name: ITunesSearchClient
+  nameWithType: ITunesSearchClient.ITunesSearchClient
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient.ITunesSearchClient
+  nameWithType.vb: ITunesSearchClient.New
+  fullName.vb: Italbytz.Music.ITunes.Client.ITunesSearchClient.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute*
+  commentId: Overload:Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute
+  href: Italbytz.Music.ITunes.Client.ITunesSearchClient.html#Italbytz_Music_ITunes_Client_ITunesSearchClient_Execute_Italbytz_Music_Abstractions_MusicSearchQuery_
+  name: Execute
+  nameWithType: ITunesSearchClient.Execute
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient.Execute
+- uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  commentId: M:Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  parent: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  definition: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: Execute(MusicSearchQuery)
+  nameWithType: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>.Execute(MusicSearchQuery)
+  fullName: Italbytz.Common.Abstractions.IAsyncService<Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result<System.Collections.Generic.List<Italbytz.Music.Abstractions.MusicSearchResult>>>.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  nameWithType.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult))).Execute(MusicSearchQuery)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result(Of System.Collections.Generic.List(Of Italbytz.Music.Abstractions.MusicSearchResult))).Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: )
+- uid: Italbytz.Music.Abstractions.MusicSearchQuery
+  commentId: T:Italbytz.Music.Abstractions.MusicSearchQuery
+  parent: Italbytz.Music.Abstractions
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: MusicSearchQuery
+  nameWithType: MusicSearchQuery
+  fullName: Italbytz.Music.Abstractions.MusicSearchQuery
+- uid: System.Threading.Tasks.Task{Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  commentId: T:System.Threading.Tasks.Task{Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Result<List<MusicSearchResult>>>
+  nameWithType: Task<Result<List<MusicSearchResult>>>
+  fullName: System.Threading.Tasks.Task<Italbytz.Common.Abstractions.Result<System.Collections.Generic.List<Italbytz.Music.Abstractions.MusicSearchResult>>>
+  nameWithType.vb: Task(Of Result(Of List(Of MusicSearchResult)))
+  fullName.vb: System.Threading.Tasks.Task(Of Italbytz.Common.Abstractions.Result(Of System.Collections.Generic.List(Of Italbytz.Music.Abstractions.MusicSearchResult)))
+  name.vb: Task(Of Result(Of List(Of MusicSearchResult)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: )
+  - name: )
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  commentId: M:Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  isExternal: true
+  name: Execute(TInDto)
+  nameWithType: IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: TInDto
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: TInDto
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

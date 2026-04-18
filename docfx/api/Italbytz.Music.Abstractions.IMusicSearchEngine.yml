@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.Abstractions.IMusicSearchEngine
+  commentId: T:Italbytz.Music.Abstractions.IMusicSearchEngine
+  id: IMusicSearchEngine
+  parent: Italbytz.Music.Abstractions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IMusicSearchEngine
+  nameWithType: IMusicSearchEngine
+  fullName: Italbytz.Music.Abstractions.IMusicSearchEngine
+  type: Interface
+  source:
+    remote:
+      path: src/Italbytz.Music.Abstractions/IMusicSearchEngine.cs
+      branch: main
+      repo: https://github.com/Italbytz/nuget-music.git
+    id: IMusicSearchEngine
+    path: ../src/Italbytz.Music.Abstractions/IMusicSearchEngine.cs
+    startLine: 4
+  assemblies:
+  - Italbytz.Music.Abstractions
+  namespace: Italbytz.Music.Abstractions
+  syntax:
+    content: 'public interface IMusicSearchEngine : IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>'
+    content.vb: Public Interface IMusicSearchEngine Inherits IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  inheritedMembers:
+  - Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+references:
+- uid: Italbytz.Music.Abstractions
+  commentId: N:Italbytz.Music.Abstractions
+  href: Italbytz.html
+  name: Italbytz.Music.Abstractions
+  nameWithType: Italbytz.Music.Abstractions
+  fullName: Italbytz.Music.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    href: Italbytz.html
+  - name: .
+  - uid: Italbytz.Music
+    name: Music
+    href: Italbytz.Music.html
+  - name: .
+  - uid: Italbytz.Music.Abstractions
+    name: Abstractions
+    href: Italbytz.Music.Abstractions.html
+- uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  commentId: M:Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  parent: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  definition: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: Execute(MusicSearchQuery)
+  nameWithType: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>.Execute(MusicSearchQuery)
+  fullName: Italbytz.Common.Abstractions.IAsyncService<Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result<System.Collections.Generic.List<Italbytz.Music.Abstractions.MusicSearchResult>>>.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  nameWithType.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult))).Execute(MusicSearchQuery)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result(Of System.Collections.Generic.List(Of Italbytz.Music.Abstractions.MusicSearchResult))).Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}.Execute(Italbytz.Music.Abstractions.MusicSearchQuery)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  commentId: M:Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+  isExternal: true
+  name: Execute(TInDto)
+  nameWithType: IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>.Execute(TInDto)
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto).Execute(TInDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: TInDto
+  - name: )
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2.Execute(`0)
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: TInDto
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService{Italbytz.Music.Abstractions.MusicSearchQuery,Italbytz.Common.Abstractions.Result{System.Collections.Generic.List{Italbytz.Music.Abstractions.MusicSearchResult}}}
+  parent: Italbytz.Common.Abstractions
+  definition: Italbytz.Common.Abstractions.IAsyncService`2
+  href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  name: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>
+  nameWithType: IAsyncService<MusicSearchQuery, Result<List<MusicSearchResult>>>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result<System.Collections.Generic.List<Italbytz.Music.Abstractions.MusicSearchResult>>>
+  nameWithType.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of Italbytz.Music.Abstractions.MusicSearchQuery, Italbytz.Common.Abstractions.Result(Of System.Collections.Generic.List(Of Italbytz.Music.Abstractions.MusicSearchResult)))
+  name.vb: IAsyncService(Of MusicSearchQuery, Result(Of List(Of MusicSearchResult)))
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: <
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: ','
+  - name: " "
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.MusicSearchQuery
+    name: MusicSearchQuery
+    href: Italbytz.Music.Abstractions.MusicSearchQuery.html
+  - name: ','
+  - name: " "
+  - uid: Italbytz.Common.Abstractions.Result`1
+    name: Result
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Italbytz.Music.Abstractions.MusicSearchResult
+    name: MusicSearchResult
+    href: Italbytz.Music.Abstractions.MusicSearchResult.html
+  - name: )
+  - name: )
+  - name: )
+- uid: Italbytz.Common.Abstractions.IAsyncService`2
+  commentId: T:Italbytz.Common.Abstractions.IAsyncService`2
+  isExternal: true
+  name: IAsyncService<TInDto, TOutDto>
+  nameWithType: IAsyncService<TInDto, TOutDto>
+  fullName: Italbytz.Common.Abstractions.IAsyncService<TInDto, TOutDto>
+  nameWithType.vb: IAsyncService(Of TInDto, TOutDto)
+  fullName.vb: Italbytz.Common.Abstractions.IAsyncService(Of TInDto, TOutDto)
+  name.vb: IAsyncService(Of TInDto, TOutDto)
+  spec.csharp:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: <
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: '>'
+  spec.vb:
+  - uid: Italbytz.Common.Abstractions.IAsyncService`2
+    name: IAsyncService
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInDto
+  - name: ','
+  - name: " "
+  - name: TOutDto
+  - name: )
+- uid: Italbytz.Common.Abstractions
+  commentId: N:Italbytz.Common.Abstractions
+  isExternal: true
+  name: Italbytz.Common.Abstractions
+  nameWithType: Italbytz.Common.Abstractions
+  fullName: Italbytz.Common.Abstractions
+  spec.csharp:
+  - uid: Italbytz
+    name: Italbytz
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    isExternal: true
+  spec.vb:
+  - uid: Italbytz
+    name: Italbytz
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common
+    name: Common
+    isExternal: true
+  - name: .
+  - uid: Italbytz.Common.Abstractions
+    name: Abstractions
+    isExternal: true

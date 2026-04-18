@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <PackageId>Italbytz.Music.Abstractions</PackageId>
+    <Description>Music-related abstractions for normalized search queries, results, and cover-art references.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Italbytz.Common.Abstractions" />
+  </ItemGroup>
+
+</Project>

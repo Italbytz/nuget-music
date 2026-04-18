@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>Italbytz.Music.ITunes.Client</PackageId>
+    <Description>Concrete iTunes Search API client for Italbytz music abstractions.</Description>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Italbytz.Music.Abstractions/Italbytz.Music.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

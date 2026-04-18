@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+artifacts/
+TestResults/
+docfx/_site/
+docfx/.cache/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# User / IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store

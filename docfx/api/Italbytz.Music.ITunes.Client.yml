@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Italbytz.Music.ITunes.Client
+  commentId: N:Italbytz.Music.ITunes.Client
+  id: Italbytz.Music.ITunes.Client
+  children:
+  - Italbytz.Music.ITunes.Client.ITunesSearchClient
+  langs:
+  - csharp
+  - vb
+  name: Italbytz.Music.ITunes.Client
+  nameWithType: Italbytz.Music.ITunes.Client
+  fullName: Italbytz.Music.ITunes.Client
+  type: Namespace
+  assemblies:
+  - Italbytz.Music.ITunes.Client
+references:
+- uid: Italbytz.Music.ITunes.Client.ITunesSearchClient
+  commentId: T:Italbytz.Music.ITunes.Client.ITunesSearchClient
+  href: Italbytz.Music.ITunes.Client.ITunesSearchClient.html
+  name: ITunesSearchClient
+  nameWithType: ITunesSearchClient
+  fullName: Italbytz.Music.ITunes.Client.ITunesSearchClient
