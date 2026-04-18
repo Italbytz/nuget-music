@@ -15,6 +15,12 @@
 - `nuget-music` builds on that base package for music-specific contracts and clients.
 - consumer-specific CLI, download, and filesystem logic stays outside this repo.
 
+## Release model
+
+- `nuget-music` starts on the stable `1.0.x` line.
+- a pushed tag such as `v1.0.1` triggers the release-ready GitHub Actions pipeline.
+- if `NUGET_API_KEY` is configured as a repository secret, the workflow publishes `.nupkg` and `.snupkg` files to NuGet.
+
 ## Local validation
 
 ```bash

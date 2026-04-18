@@ -18,6 +18,12 @@ Concrete iTunes Search API client that maps external responses to the shared mus
 - `nuget-music` builds on that base package for music-specific contracts and clients.
 - consumer-specific CLI, download, and filesystem logic stays outside this repo.
 
+## Release model
+
+- `nuget-music` starts with the stable `1.0.x` line for the extracted music packages.
+- a pushed tag such as `v1.0.1` triggers the release-ready pipeline in GitHub Actions.
+- if the repository secret `NUGET_API_KEY` is configured, the workflow also publishes `.nupkg` and `.snupkg` files to NuGet.
+
 ## Local validation
 
 ```bash
@@ -31,4 +37,4 @@ dotnet tool run docfx docfx/docfx.json
 ## CI and documentation
 
 - GitHub Actions builds, tests, packs, and publishes the Docfx site.
-- Tagged releases of the form `v*` publish NuGet and symbol packages when `NUGET_API_KEY` is configured.
+- pushed release tags follow the `v<package-version>` pattern.
