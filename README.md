@@ -1,5 +1,7 @@
 # nuget-music
 
+[![Documentation](https://img.shields.io/badge/Documentation-GitHub%20Pages-blue?style=for-the-badge)](https://italbytz.github.io/nuget-music/)
+
 `nuget-music` contains the dedicated music package family from `Italbytz.*`.
 
 It is intended for developers who want shared music search contracts and concrete music-provider clients without pulling those concerns into the more general `nuget-foundation` repository.
@@ -33,6 +35,10 @@ dotnet test nuget-music.sln -v minimal
 dotnet pack nuget-music.sln -c Release -v minimal
 dotnet tool run docfx docfx/docfx.json
 ```
+
+## Documentation
+
+- Product documentation: `https://italbytz.github.io/nuget-music/`
 
 ## CI and documentation
 
